@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F560EA3B235652C700A0714A /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = F560EA3A235652C700A0714A /* Ball.swift */; };
 		F5C80938234D4689004849A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C80937234D4689004849A5 /* AppDelegate.swift */; };
 		F5C8093A234D4689004849A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C80939234D4689004849A5 /* ViewController.swift */; };
 		F5C8093D234D4689004849A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C8093B234D4689004849A5 /* Main.storyboard */; };
@@ -14,6 +15,19 @@
 		F5C80942234D4689004849A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C80940234D4689004849A5 /* LaunchScreen.storyboard */; };
 		F5C8094D234D4689004849A5 /* Practica_Ricardo_SquashV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C8094C234D4689004849A5 /* Practica_Ricardo_SquashV1Tests.swift */; };
 		F5C80958234D4689004849A5 /* Practica_Ricardo_SquashV1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C80957234D4689004849A5 /* Practica_Ricardo_SquashV1UITests.swift */; };
+		F5C80966234D485A004849A5 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C80965234D485A004849A5 /* Media.xcassets */; };
+		F5C8096A234D52CB004849A5 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C80969234D52CB004849A5 /* MusicPlayer.swift */; };
+		F5C8096C234D551A004849A5 /* notimeforcaution.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C8096B234D551A004849A5 /* notimeforcaution.mp3 */; };
+		F5E138132351210A00A748B8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E138122351210A00A748B8 /* GameViewController.swift */; };
+		F5E1381723512B3D00A748B8 /* Racket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1381623512B3D00A748B8 /* Racket.swift */; };
+		F5EE46F3235B55C300BB1AE2 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EE46F2235B55C300BB1AE2 /* InstructionsViewController.swift */; };
+		F5EE46F5235B5BE800BB1AE2 /* gameMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5EE46F4235B5BE800BB1AE2 /* gameMusic.mp3 */; };
+		F5EE46F7235B5EE200BB1AE2 /* defeat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5EE46F6235B5EE200BB1AE2 /* defeat.mp3 */; };
+		F5EE4703235B67B400BB1AE2 /* hitWall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5EE4702235B67B400BB1AE2 /* hitWall.mp3 */; };
+		F5EE4705235B68CE00BB1AE2 /* hitRacket.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5EE4704235B68CE00BB1AE2 /* hitRacket.mp3 */; };
+		F5FCC53D235A4F9200EC1517 /* Brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FCC53C235A4F9200EC1517 /* Brick.swift */; };
+		F5FCC53F235A6C2700EC1517 /* Satellite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FCC53E235A6C2700EC1517 /* Satellite.swift */; };
+		F5FCC543235A787A00EC1517 /* ScoreboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FCC542235A787A00EC1517 /* ScoreboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F560EA3A235652C700A0714A /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
 		F5C80934234D4689004849A5 /* Practica_Ricardo_SquashV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practica_Ricardo_SquashV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C80937234D4689004849A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5C80939234D4689004849A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5C80939234D4689004849A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		F5C8093C234D4689004849A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5C8093E234D4689004849A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5C80941234D4689004849A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,20 @@
 		F5C80953234D4689004849A5 /* Practica_Ricardo_SquashV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practica_Ricardo_SquashV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C80957234D4689004849A5 /* Practica_Ricardo_SquashV1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_Ricardo_SquashV1UITests.swift; sourceTree = "<group>"; };
 		F5C80959234D4689004849A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C80965234D485A004849A5 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		F5C80969234D52CB004849A5 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		F5C8096B234D551A004849A5 /* notimeforcaution.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notimeforcaution.mp3; sourceTree = "<group>"; };
+		F5E138122351210A00A748B8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F5E1381623512B3D00A748B8 /* Racket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racket.swift; sourceTree = "<group>"; };
+		F5EE46F2235B55C300BB1AE2 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		F5EE46F4235B5BE800BB1AE2 /* gameMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gameMusic.mp3; path = Practica_Ricardo_SquashV1/gameMusic.mp3; sourceTree = "<group>"; };
+		F5EE46F6235B5EE200BB1AE2 /* defeat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = defeat.mp3; path = Practica_Ricardo_SquashV1/defeat.mp3; sourceTree = "<group>"; };
+		F5EE46FA235B617C00BB1AE2 /* gameMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gameMusic.mp3; path = Practica_Ricardo_SquashV1/gameMusic.mp3; sourceTree = "<group>"; };
+		F5EE4702235B67B400BB1AE2 /* hitWall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hitWall.mp3; path = Practica_Ricardo_SquashV1/hitWall.mp3; sourceTree = "<group>"; };
+		F5EE4704235B68CE00BB1AE2 /* hitRacket.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hitRacket.mp3; path = Practica_Ricardo_SquashV1/hitRacket.mp3; sourceTree = "<group>"; };
+		F5FCC53C235A4F9200EC1517 /* Brick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick.swift; sourceTree = "<group>"; };
+		F5FCC53E235A6C2700EC1517 /* Satellite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Satellite.swift; sourceTree = "<group>"; };
+		F5FCC542235A787A00EC1517 /* ScoreboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +106,12 @@
 		F5C8092B234D4689004849A5 = {
 			isa = PBXGroup;
 			children = (
+				F5EE4704235B68CE00BB1AE2 /* hitRacket.mp3 */,
+				F5EE4702235B67B400BB1AE2 /* hitWall.mp3 */,
+				F5EE46FA235B617C00BB1AE2 /* gameMusic.mp3 */,
+				F5EE46F6235B5EE200BB1AE2 /* defeat.mp3 */,
+				F5EE46F4235B5BE800BB1AE2 /* gameMusic.mp3 */,
+				F5C8096B234D551A004849A5 /* notimeforcaution.mp3 */,
 				F5C80936234D4689004849A5 /* Practica_Ricardo_SquashV1 */,
 				F5C8094B234D4689004849A5 /* Practica_Ricardo_SquashV1Tests */,
 				F5C80956234D4689004849A5 /* Practica_Ricardo_SquashV1UITests */,
@@ -97,9 +132,18 @@
 		F5C80936234D4689004849A5 /* Practica_Ricardo_SquashV1 */ = {
 			isa = PBXGroup;
 			children = (
+				F5FCC542235A787A00EC1517 /* ScoreboardViewController.swift */,
 				F5C80937234D4689004849A5 /* AppDelegate.swift */,
 				F5C80939234D4689004849A5 /* ViewController.swift */,
+				F5E138122351210A00A748B8 /* GameViewController.swift */,
+				F5FCC53E235A6C2700EC1517 /* Satellite.swift */,
+				F560EA3A235652C700A0714A /* Ball.swift */,
+				F5C80965234D485A004849A5 /* Media.xcassets */,
+				F5EE46F2235B55C300BB1AE2 /* InstructionsViewController.swift */,
 				F5C8093B234D4689004849A5 /* Main.storyboard */,
+				F5E1381623512B3D00A748B8 /* Racket.swift */,
+				F5FCC53C235A4F9200EC1517 /* Brick.swift */,
+				F5C80969234D52CB004849A5 /* MusicPlayer.swift */,
 				F5C8093E234D4689004849A5 /* Assets.xcassets */,
 				F5C80940234D4689004849A5 /* LaunchScreen.storyboard */,
 				F5C80943234D4689004849A5 /* Info.plist */,
@@ -229,8 +273,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5EE4705235B68CE00BB1AE2 /* hitRacket.mp3 in Resources */,
+				F5EE4703235B67B400BB1AE2 /* hitWall.mp3 in Resources */,
+				F5EE46F5235B5BE800BB1AE2 /* gameMusic.mp3 in Resources */,
+				F5EE46F7235B5EE200BB1AE2 /* defeat.mp3 in Resources */,
+				F5C8096C234D551A004849A5 /* notimeforcaution.mp3 in Resources */,
 				F5C80942234D4689004849A5 /* LaunchScreen.storyboard in Resources */,
 				F5C8093F234D4689004849A5 /* Assets.xcassets in Resources */,
+				F5C80966234D485A004849A5 /* Media.xcassets in Resources */,
 				F5C8093D234D4689004849A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +306,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F560EA3B235652C700A0714A /* Ball.swift in Sources */,
+				F5FCC543235A787A00EC1517 /* ScoreboardViewController.swift in Sources */,
+				F5FCC53F235A6C2700EC1517 /* Satellite.swift in Sources */,
+				F5E138132351210A00A748B8 /* GameViewController.swift in Sources */,
+				F5EE46F3235B55C300BB1AE2 /* InstructionsViewController.swift in Sources */,
 				F5C8093A234D4689004849A5 /* ViewController.swift in Sources */,
 				F5C80938234D4689004849A5 /* AppDelegate.swift in Sources */,
+				F5C8096A234D52CB004849A5 /* MusicPlayer.swift in Sources */,
+				F5FCC53D235A4F9200EC1517 /* Brick.swift in Sources */,
+				F5E1381723512B3D00A748B8 /* Racket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
